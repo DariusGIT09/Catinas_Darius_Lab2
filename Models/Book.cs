@@ -20,5 +20,6 @@ namespace Catinas_Darius_Lab2.Models
         public Author? Author { get; set; } // Navigation property
         public int? PublisherID { get; set; }
         public Publisher? Publisher { get; set; }
+        public ICollection<BookCategory>? BookCategories { get; set; }
     }
 }
